@@ -1,6 +1,6 @@
-# AutoGen + WordOrb Integration
+# AutoGen + Word Orb Integration
 
-Use the [WordOrb.ai](https://wordorb.ai) vocabulary and lesson API as tool
+Use the [wordorb.ai](https://wordorb.ai) vocabulary and lesson API as tool
 functions inside [Microsoft AutoGen](https://microsoft.github.io/autogen/) agents.
 
 ## Setup
@@ -11,7 +11,7 @@ export WORDORB_API_KEY="wo_live_abc123"
 export OPENAI_API_KEY="sk-..."
 ```
 
-Get a free WordOrb API key at [wordorb.ai/pricing](https://wordorb.ai/pricing).
+Get a Word Orb API key at [wordorb.ai/pricing](https://wordorb.ai/pricing).
 
 ## Tool functions
 
@@ -46,7 +46,7 @@ register_wordorb_tools(caller=tutor, executor=executor)
 
 ## Two-agent chat example
 
-A tutor agent teaches vocabulary using WordOrb tools, while the student asks
+A tutor agent teaches vocabulary using Word Orb tools, while the student asks
 questions interactively:
 
 ```bash
@@ -103,7 +103,7 @@ To register these tools with the AutoGen ecosystem:
    - Tool function signatures and descriptions
    - Setup instructions (API key, environment variables)
    - Working two-agent and group chat examples
-   - Link to WordOrb API docs at `https://wordorb.ai/docs`
+   - Link to Word Orb API docs at `https://wordorb.ai/docs`
 
 4. **Notebook**: Include a Jupyter notebook in `notebook/` demonstrating
    the integration end-to-end.
@@ -112,7 +112,7 @@ To register these tools with the AutoGen ecosystem:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `WORDORB_API_KEY` | Yes | WordOrb API key (starts with `wo_`) |
+| `WORDORB_API_KEY` | Yes | Word Orb API key (starts with `wo_`) |
 | `OPENAI_API_KEY` | Yes | OpenAI API key for the LLM |
 | `WORDORB_BASE_URL` | No | Override API URL (default: `https://api.wordorb.ai`) |
 
